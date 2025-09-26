@@ -15,7 +15,7 @@ const Routes = () => {
         <ScrollToTop />
         <RouterRoutes>
           {/* Define your route here */}
-          <Route path="/" element={<Navigate to="/cryptocurrency-dashboard" />} />
+          <Route path="/" element={<CryptocurrencyDashboard />} />
           <Route path="/search-results" element={<SearchResults />} />
           <Route path="/cryptocurrency-dashboard" element={<CryptocurrencyDashboard />} />
           <Route path="/coin-detail-modal" element={<CoinDetailModal />} />
